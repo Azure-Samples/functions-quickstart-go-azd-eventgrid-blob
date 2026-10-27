@@ -49,6 +49,13 @@ cd functions-quickstart-go-azd-eventgrid-blob
 Copy-Item local.settings.example.json local.settings.json
 ```
 
+The example uses the full Azurite connection string with its well-known
+development-only account and key. The Go worker's Blob binding does not currently
+expand `UseDevelopmentStorage=true`; see
+[worker issue #82](https://github.com/Azure/azure-functions-golang-worker/issues/82).
+This workaround is only for local development; Azure deployments continue to use
+managed identity.
+
 Start Azurite in a separate terminal, create a `samples-workitems` container
 in the emulator, and upload a test file using Azure Storage Explorer.
 Then run `func start`. The host builds the Go binary and indexes `processBlob`.
