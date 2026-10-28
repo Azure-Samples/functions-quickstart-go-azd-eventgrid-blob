@@ -404,6 +404,12 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
+local.settings.json
+.azure/
+vendor/
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
