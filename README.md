@@ -18,7 +18,7 @@ urlFragment: functions-quickstart-go-azd-eventgrid-blob
 
 This sample follows the [Go timer quickstart](https://github.com/Azure-Samples/functions-quickstart-go-azd-timer)
 and deploys a Go function to Linux Flex Consumption using Azure Developer CLI
-(`azd`). Go worker packages are currently preview packages.
+(`azd`). This sample uses Go worker v1.0.0 (GA).
 
 Uploading a blob to `samples-workitems` raises a `Microsoft.Storage.BlobCreated`
 event. Event Grid calls the Blob extension webhook, and `processBlob` receives
@@ -50,11 +50,11 @@ Copy-Item local.settings.example.json local.settings.json
 ```
 
 The example uses the full Azurite connection string with its well-known
-development-only account and key. The Go worker's Blob binding does not currently
-expand `UseDevelopmentStorage=true`; see
+development-only account and key. Go worker v1.0.0 also supports
+`UseDevelopmentStorage=true`, fixing
 [worker issue #82](https://github.com/Azure/azure-functions-golang-worker/issues/82).
-This workaround is only for local development; Azure deployments continue to use
-managed identity.
+The explicit connection string remains valid for local development; Azure
+deployments use managed identity.
 
 Start Azurite in a separate terminal, create a `samples-workitems` container
 in the emulator, and upload a test file using Azure Storage Explorer.

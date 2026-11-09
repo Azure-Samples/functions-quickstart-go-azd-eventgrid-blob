@@ -14,10 +14,10 @@ github.com/AzureAD/microsoft-authentication-extensions-for-go/cache v0.1.1 h1:WJ
 github.com/AzureAD/microsoft-authentication-extensions-for-go/cache v0.1.1/go.mod h1:tCcJZ0uHAmvjsVYzEFivsRTN00oz5BEsRgQHu5JZ9WE=
 github.com/AzureAD/microsoft-authentication-library-for-go v1.7.2 h1:RHK7bS+HQMslb1sZpAokUt+zTVmue0hKSs2C791hhzU=
 github.com/AzureAD/microsoft-authentication-library-for-go v1.7.2/go.mod h1:HKpQxkWaGLJ+D/5H8QRpyQXA1eKjxkFlOMwck5+33Jk=
-github.com/azure/azure-functions-golang-worker v0.7.0-preview h1:uhCW6CODo2qJa7qjALl7sQsPe/xt738ivHhnrg0mvWI=
-github.com/azure/azure-functions-golang-worker v0.7.0-preview/go.mod h1:OlVVd1h4g2OfIyBh/NeNUa9gHKFhuNVHd18a+jD8UEE=
-github.com/azure/azure-functions-golang-worker/triggers/blob v0.7.0-preview h1:AJc/YH4Oa0xBmX2aNo6cN+5EYfa1rZlLBvEnFLRLIlo=
-github.com/azure/azure-functions-golang-worker/triggers/blob v0.7.0-preview/go.mod h1:8nba9McpiE8kvHMpMpYzcbL6FPyWDUbzPz3FHe2qJPw=
+github.com/azure/azure-functions-golang-worker v1.0.0 h1:BRzEcppFqlD/kOGcSCu699Kb2u/5ooXByNKLzns/e2o=
+github.com/azure/azure-functions-golang-worker v1.0.0/go.mod h1:OlVVd1h4g2OfIyBh/NeNUa9gHKFhuNVHd18a+jD8UEE=
+github.com/azure/azure-functions-golang-worker/triggers/blob v1.0.0 h1:G/7OMBCS7nYC/ENVwns6JSVi3D/f9AL5LOshsclabRM=
+github.com/azure/azure-functions-golang-worker/triggers/blob v1.0.0/go.mod h1:xLFjV0ApE+EqSnuuTgEu0aa2HykFLYcDjXvXmb1rbwE=
 github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs=
 github.com/cespare/xxhash/v2 v2.3.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
