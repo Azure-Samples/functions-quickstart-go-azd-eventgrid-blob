@@ -1,0 +1,10 @@
+# This descriptor drives template package creation in the packaging pipeline.
+schemaVersion: 1
+identity: Azure.Functions.Templates.EventGridBlobGo
+description: Create a Go Azure Functions app for Event Grid Blob Trigger, with Bicep infrastructure for deployment using azd.
+projects:
+- name: Azure Functions Event Grid Blob Trigger (Go)
+  shortName: functions-quickstart-go-eventgrid-blob
+  root: .
+  stack: go
+  language: Go
